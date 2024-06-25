@@ -5,6 +5,7 @@
 ### Team project «Explore Indonesia» | by GoIteens students
 
 #### Info:
+
 ##### Used: CSS, HTML, JavaScript, etc.
 
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -14,15 +15,19 @@
 ## By GoIteens
 
 #### 👨‍💻 Team Leader:
+
 - [@Git_id](Your_profile_link)
 
 #### 👨‍💻 Scrum Master:
+
 - [@Git_id](Your_profile_link)
 
 #### 👨‍💻 Tech Leader:
+
 - [@Git_id](Your_profile_link)
 
 #### ⚒️ Developers:
+
 - [@Your_GitHub_id](Your_profile_link)
 - [@Your_GitHub_id](Your_profile_link)
 - [@Your_GitHub_id](Your_profile_link)
@@ -34,4 +39,3 @@
 - [@Your_GitHub_id](Your_profile_link)
 
 </div>
-
