@@ -13,16 +13,16 @@
 
 ## By GoIteens
 
-#### Team Leader:
+#### 👨‍💻 Team Leader:
 - [@Git_id](Your_profile_link)
 
-#### Scrum Master:
+#### 👨‍💻 Scrum Master:
 - [@Git_id](Your_profile_link)
 
-#### Tech Leader:
+#### 👨‍💻 Tech Leader:
 - [@Git_id](Your_profile_link)
 
-#### Developers:
+#### ⚒️ Developers:
 - [@Your_GitHub_id](Your_profile_link)
 - [@Your_GitHub_id](Your_profile_link)
 - [@Your_GitHub_id](Your_profile_link)
