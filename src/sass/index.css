@@ -1,1 +1,26 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';/*# sourceMappingURL=index.css.map */
+@import '~node_modules/modern-normalize/modern-normalize.css';
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+.hero {
+  padding-top: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)), url("/src/images/section-hero-background.png");
+  background-size: cover;
+  background-position: center center;
+  height: 1080px;
+}
+
+.navbar-nav {
+  margin-left: 65px;
+  gap: 62px;
+}
+.navbar-nav .nav-item {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.navbar-nav .nav-item .nav-link {
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=index.css.map */
