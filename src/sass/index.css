@@ -9,6 +9,13 @@
   display: flex;
 }
 
+.explore-background {
+  background: url("/src/images/section-explore-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 2208px;
+}
+
 .section-hero-container {
   width: 1921px;
   margin: 0 auto;
