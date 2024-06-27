@@ -9,6 +9,11 @@
   display: flex;
 }
 
+.section-hero-container {
+  width: 1921px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
 .hero {
   padding-top: 30px;
   background: linear-gradient(rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)), url("/src/images/section-hero-background.png");
