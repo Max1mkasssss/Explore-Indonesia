@@ -9,11 +9,24 @@
   display: flex;
 }
 
-.explore-background {
+.explore-container {
+  width: 1446px;
+  margin: 0 auto;
+  outline: 2px solid red;
+  padding-top: 127px;
+}
+
+.section-explore {
   background: url("/src/images/section-explore-background.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 2208px;
+}
+
+.explore-title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 50px;
+  text-align: center;
 }
 
 .section-hero-container {
