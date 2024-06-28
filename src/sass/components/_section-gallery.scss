@@ -1,89 +1,100 @@
-$photos_W: 370px;
-$photos_M: 30px;
-$photo_girls_mountains_H: 530.69px;
-$photo_sea_volcano_H: 210.27px;
-$photo_man_fog_H: 370.48px;
-
 .gallery {
-    width: 1170px;
-    height: 770px;
+  width: 1170px;
+  height: 770px;
 }
 
-.gallery-box{
-    margin-top: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.gallery-box {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .Photo-Gallery {
-    width: 1920px;
-    height: 1388px;
+  width: 1920px;
+  height: 1388px;
 }
 
 .title {
-    margin-top: 104px;
-    text-align: center;
-    flex-direction: row;
+  margin-top: 104px;
+  text-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .title-h2 {
-    color: rgb(1, 10, 32);
-    font-family: DM Sans;
-    font-size: 60px;
-    line-height: 150%;
-    letter-spacing: 0%;
-    text-align: center;
+  color: rgb(1, 10, 32);
+  font-family: "DM Sans", sans-serif;
+  font-size: 60px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
-.Paragraph-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.Paragraph-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .Paragraph {
-
-    text-align: center;
-    width: 511px;
-    height: 47px;
-    color: rgb(111, 119, 135);
-    font-family: DM Sans;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 1%;
+  text-align: center;
+  width: 511px;
+  height: 47px;
+  color: rgb(111, 119, 135);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1%;
 }
 
 .girls-sea,
 .volcano-mountains,
 .man-fog {
-    width: $photos_W;
+  width: 370px;
 }
 
 .mountains,
 .fog,
 .sea {
-    margin-top: $photos_M;
+  margin-top: 30px;
 }
 
 .girls,
 .mountains {
-    height: $photo_girls_mountains_H;
+  height: 530.69px;
 }
 
 .volcano,
 .sea {
-    height: $photo_sea_volcano_H;
+  height: 210.27px;
 }
 
 .man-fog {
-    height: $photo_man_fog_H;
+  height: 370.48px;
 }
 
 .gallery {
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
-    padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 30px;
 }

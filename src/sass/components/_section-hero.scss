@@ -1,7 +1,7 @@
 .hero {
   padding-top: 30px;
   background: linear-gradient(rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)),
-    url('/src/images/section-hero-background.png');
+    url('/src/images/section-hero/section-hero-background.png');
   background-size: cover;
   background-position: center center;
 }
@@ -156,7 +156,7 @@
 }
 .video {
   position: relative;
-  background: url(/src/images/section-hero-video.png);
+  background: url(/src/images/section-hero/section-hero-video.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -1,0 +1,28 @@
+<svg width="44.022949" height="44.000000" viewBox="0 0 44.0229 44" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_6_350_dd" x="-67.008545" y="-68.000000" width="178.040649" height="178.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="0"/>
+			<feGaussianBlur stdDeviation="16.6667"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<clipPath id="clip6_367">
+			<rect id="play_arrow" rx="-0.500000" width="43.022915" height="43.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="play_arrow" rx="-0.500000" width="43.022915" height="43.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip6_367)">
+		<g filter="url(#filter_6_350_dd)">
+			<ellipse id="Ellipse 1" cx="22.011719" cy="21.000000" rx="39.020313" ry="39.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+			<ellipse id="Ellipse 1" cx="22.011719" cy="21.000000" rx="38.520313" ry="38.500000" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000"/>
+		</g>
+		<path id="Vector" d="M14.67 9.16L14.67 34.83L34.85 22L14.67 9.16Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

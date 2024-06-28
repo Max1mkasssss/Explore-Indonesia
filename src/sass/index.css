@@ -9,14 +9,9 @@
   display: flex;
 }
 
-.section-hero-container {
-  width: 1921px;
-  margin: 0 auto;
-  outline: 2px solid red;
-}
 .hero {
   padding-top: 30px;
-  background: linear-gradient(rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)), url("/src/images/section-hero-background.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)), url("/src/images/section-hero/section-hero-background.png");
   background-size: cover;
   background-position: center center;
 }
@@ -178,7 +173,7 @@
 
 .video {
   position: relative;
-  background: url(/src/images/section-hero-video.png);
+  background: url(/src/images/section-hero/section-hero-video.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -192,4 +187,94 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.explore-background {
+  background: url("/src/images/section-explore/section-explore-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 2208px;
+}
+
+.gallery {
+  width: 1170px;
+  height: 770px;
+}
+
+.gallery-box {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Photo-Gallery {
+  width: 1920px;
+  height: 1388px;
+}
+
+.title {
+  margin-top: 104px;
+  text-align: center;
+  flex-direction: row;
+}
+
+.title-h2 {
+  color: rgb(1, 10, 32);
+  font-family: "DM Sans", sans-serif;
+  font-size: 60px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.Paragraph-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Paragraph {
+  text-align: center;
+  width: 511px;
+  height: 47px;
+  color: rgb(111, 119, 135);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1%;
+}
+
+.girls-sea,
+.volcano-mountains,
+.man-fog {
+  width: 370px;
+}
+
+.mountains,
+.fog,
+.sea {
+  margin-top: 30px;
+}
+
+.girls,
+.mountains {
+  height: 530.69px;
+}
+
+.volcano,
+.sea {
+  height: 210.27px;
+}
+
+.man-fog {
+  height: 370.48px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 30px;
 }/*# sourceMappingURL=index.css.map */
