@@ -1,6 +1,6 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import '~node_modules/modern-normalize/modern-normalize.css';
 * {
   box-sizing: border-box;
 }
@@ -9,6 +9,7 @@
   display: flex;
 }
 
+<<<<<<< HEAD
 .explore-container {
   width: 1446px;
   margin: 0 auto;
@@ -18,9 +19,13 @@
 
 .section-explore {
   background: url("/src/images/section-explore-background.png");
+=======
+.hero {
+  padding-top: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)), url("/src/images/section-hero/section-hero-background.png");
+>>>>>>> 8aa6931cfc7fe8c91a001d991463579e817ab866
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 2208px;
+  background-position: center center;
 }
 
 .explore-title {
@@ -32,15 +37,6 @@
 .section-hero-container {
   width: 1921px;
   margin: 0 auto;
-  outline: 2px solid red;
-}
-
-.hero {
-  padding-top: 30px;
-  background: linear-gradient(rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)), url("/src/images/section-hero-background.png");
-  background-size: cover;
-  background-position: center center;
-  height: 1080px;
 }
 
 .navbar-nav {
@@ -136,4 +132,167 @@
   line-height: 150%;
   letter-spacing: 0%;
   text-align: center;
+}
+
+.video-wrapper-section-hero {
+  margin-top: 241px;
+}
+.video-wrapper-section-hero .language-wrapper {
+  width: 131px;
+  height: 21.01px;
+  margin-left: 65px;
+  margin-top: 35px;
+}
+
+.time-codes {
+  margin-top: 38px;
+  margin-left: 190px;
+  width: 1225.64px;
+  height: 210px;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.time-codes .time-codes-list {
+  margin-top: 41px;
+  gap: 198px;
+}
+.time-codes .time-codes-list .time-codes-list-item {
+  width: 210.11px;
+}
+.time-codes .time-codes-list .time-codes-list-item p {
+  color: rgb(221, 34, 66);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.time-codes .time-codes-list .time-codes-list-item h4 {
+  color: rgb(255, 255, 255);
+  font-family: "DM Sans", sans-serif;
+  font-size: 26.41px;
+  font-weight: 700;
+  line-height: 41.08px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.time-codes .time-codes-list .time-codes-list-item span {
+  color: rgb(147, 147, 147);
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.video {
+  position: relative;
+  background: url(/src/images/section-hero/section-hero-video.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 417.22px;
+  height: 254px;
+}
+.video img {
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.explore-background {
+  background: url("/src/images/section-explore/section-explore-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 2208px;
+}
+
+.gallery {
+  width: 1170px;
+  height: 770px;
+}
+
+.gallery-box {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Photo-Gallery {
+  width: 1920px;
+  height: 1388px;
+}
+
+.title {
+  margin-top: 104px;
+  text-align: center;
+  flex-direction: row;
+}
+
+.title-h2 {
+  color: rgb(1, 10, 32);
+  font-family: "DM Sans", sans-serif;
+  font-size: 60px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.Paragraph-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Paragraph {
+  text-align: center;
+  width: 511px;
+  height: 47px;
+  color: rgb(111, 119, 135);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1%;
+}
+
+.girls-sea,
+.volcano-mountains,
+.man-fog {
+  width: 370px;
+}
+
+.mountains,
+.fog,
+.sea {
+  margin-top: 30px;
+}
+
+.girls,
+.mountains {
+  height: 530.69px;
+}
+
+.volcano,
+.sea {
+  height: 210.27px;
+}
+
+.man-fog {
+  height: 370.48px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 30px;
 }/*# sourceMappingURL=index.css.map */
