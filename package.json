@@ -18,6 +18,7 @@
     "url": "https://github.com/max1mkasssss/Explore-Indonesia/issues"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001638",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
