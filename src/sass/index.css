@@ -9,29 +9,11 @@
   display: flex;
 }
 
-<<<<<<< HEAD
-.explore-container {
-  width: 1446px;
-  margin: 0 auto;
-  outline: 2px solid red;
-  padding-top: 127px;
-}
-
-.section-explore {
-  background: url("/src/images/section-explore-background.png");
-=======
 .hero {
   padding-top: 30px;
   background: linear-gradient(rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)), url("/src/images/section-hero/section-hero-background.png");
->>>>>>> 8aa6931cfc7fe8c91a001d991463579e817ab866
   background-size: cover;
   background-position: center center;
-}
-
-.explore-title {
-  font-family: "DM Sans", sans-serif;
-  font-size: 50px;
-  text-align: center;
 }
 
 .section-hero-container {
@@ -191,7 +173,7 @@
 
 .video {
   position: relative;
-  background: url(/src/images/section-hero/section-hero-video.png);
+  background: url("/src/images/section-hero/section-hero-video.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -207,11 +189,21 @@
   transform: translate(-50%, -50%);
 }
 
-.explore-background {
-  background: url("/src/images/section-explore/section-explore-background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 2208px;
+.explore-container {
+  width: 1446px;
+  margin: 0 auto;
+  outline: 2px solid red;
+  padding-top: 127px;
+}
+
+.section-explore {
+  background: url("/src/images/section-explore-background.png");
+}
+
+.explore-title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 50px;
+  text-align: center;
 }
 
 .gallery {
