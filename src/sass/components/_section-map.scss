@@ -1,0 +1,79 @@
+.map {
+  position: relative;
+  //background-image: url('src/images/section-map/linedecoration.svg'), url('src/images/section-map/linedecoration2.svg');
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  .map__title {
+    font-family: DM Sans;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+    max-width: 614px;
+    margin: 0 auto;
+    padding-top: 248px;
+    margin-bottom: 0;
+  }
+  .map__description {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #6f7787;
+    max-width: 470px;
+    margin: 0 auto;
+    padding-top: 32px;
+    margin-bottom: 0;
+  }
+  .map__div-button {
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 256px;
+  }
+  .map__button {
+    position: relative;
+    overflow: hidden;
+    max-width: 210px;
+    height: 64px;
+    padding: 16px 55px;
+    gap: 24px;
+    background-color: #dd2242;
+    border-radius: 50px;
+    border: none;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    &::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -50%;
+        width: 100%;
+        height: 200%;
+        background: rgba(255, 255, 255, 0.3);
+        transform: rotate(45deg);
+        transition: all 0.5s ease;
+    }
+    &:hover::before {
+        left: 100%;
+    }
+    &:hover {
+        background-color: #ff3355;
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    &:active {
+        background-color: #c41838;
+        transform: scale(0.95);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
