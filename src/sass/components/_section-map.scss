@@ -1,8 +1,11 @@
-.map {
+.section-map{
   position: relative;
-  //background-image: url('src/images/section-map/linedecoration.svg'), url('src/images/section-map/linedecoration2.svg');
+  background-image: url('/src/images/section-map/linedecoration.svg'), url('/src/images/section-map/linedecoration2.svg');
   background-position: left top, right bottom;
   background-repeat: no-repeat, no-repeat;
+}
+
+.map {
   .map__title {
     font-family: DM Sans;
     font-size: 42px;
