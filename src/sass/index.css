@@ -756,4 +756,9 @@ ul {
   background-color: #c41838;
   transform: scale(0.95);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+  width: 1930px;
+  margin: 0 auto;
 }/*# sourceMappingURL=index.css.map */
